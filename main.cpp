@@ -34,7 +34,7 @@ int main() {
             encoded.insert(make_pair(it2->second, it1->second));
         for (const auto& letter : line)
             cout << encoded[letter];
-        cout << endl << endl;
+        n != 0 ? cout << endl << endl : cout << endl;
     }
 
     return 0;
